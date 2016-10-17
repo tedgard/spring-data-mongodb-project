@@ -10,7 +10,8 @@ import com.mongodb.MongoClient;
 /**
  * Main Application Launcher
  * Testing a NoSQL database : Mongodb
- * Taking advantage of Java 1.8 features
+ * Using Maven 3.3+ for building the project 
+ * And taking advantage of Java 1.8 features
  * @author edgardndouna
  */
 public class Application {
@@ -24,6 +25,7 @@ public class Application {
 			
 			DB db = client.getDB("sandbox");
 			DBCollection dbCollection = db.getCollection("book");
+			
 			dbCollection.insert(new BasicDBObject().append("title", "David Copperfield"));
 		}
 		
