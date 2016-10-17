@@ -8,7 +8,7 @@ import com.mongodb.DBCollection;
 import com.mongodb.MongoClient;
 
 /**
- * Main Application Launcher
+ * Main Application Launcher located in the root package
  * Testing a NoSQL database : Mongodb
  * Using Maven 3.3+ for building the project 
  * And taking advantage of Java 1.8 features
