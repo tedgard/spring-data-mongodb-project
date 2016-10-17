@@ -9,6 +9,7 @@ import com.mongodb.MongoClient;
 
 /**
  * Main Application Launcher
+ * Testing a NoSQL database : Mongodb
  * @author edgardndouna
  */
 public class Application {
