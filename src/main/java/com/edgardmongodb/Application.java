@@ -19,6 +19,7 @@ public class Application {
 
 	public static void main(String[] args) {
 		
+		//Using try-with-ressources
 		try( ClassPathXmlApplicationContext context = 
 				new ClassPathXmlApplicationContext("application-context.xml")){
 			
