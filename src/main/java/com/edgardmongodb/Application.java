@@ -27,6 +27,7 @@ public class Application {
 			DBCollection dbCollection = db.getCollection("book");
 			
 			dbCollection.insert(new BasicDBObject().append("title", "David Copperfield"));
+			dbCollection.insert(new BasicDBObject().append("title", "Henri David Thoreau"));
 		}
 		
 	}
