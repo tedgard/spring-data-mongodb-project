@@ -13,6 +13,8 @@ import com.mongodb.MongoClient;
  * Using Maven 3.3+ for building the project 
  * And taking advantage of Java 1.8+ latest awesome new features  
  * 
+ * Version 2.0
+ * 
  * @author edgardndouna
  */
 public class Application {
