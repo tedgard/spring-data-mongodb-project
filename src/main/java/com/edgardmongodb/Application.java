@@ -7,6 +7,10 @@ import com.mongodb.DB;
 import com.mongodb.DBCollection;
 import com.mongodb.MongoClient;
 
+/**
+ * Main Application Launcher
+ * @author edgardndouna
+ */
 public class Application {
 
 	public static void main(String[] args) {
