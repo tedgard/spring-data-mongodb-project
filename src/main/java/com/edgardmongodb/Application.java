@@ -33,12 +33,10 @@ public class Application {
 
 /*
  * 
- *
- * ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("application-context.xml");
-		MongoClient client = (MongoClient) context.getBean("mongoClient");
-		DB db = client.getDB("sandbox");
-		DBCollection collection = db.getCollection("book");
-		collection.insert(new BasicDBObject().append("title", "Harry Potter"));
- * 
+	ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("application-context.xml");
+	MongoClient client = (MongoClient) context.getBean("mongoClient");
+	DB db = client.getDB("sandbox");
+	DBCollection collection = db.getCollection("book");
+	collection.insert(new BasicDBObject().append("title", "Harry Potter")); 
  * 
  */
